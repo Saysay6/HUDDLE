@@ -1,0 +1,64 @@
+body{margin:0;
+}
+.container{
+    background-color:#744CBB;
+background-image:url("./Assets/bg-desktop.svg");
+min-height: 100vh;
+padding:0 80px;
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+}
+
+.header{
+    display:flex;
+justify-content:space-between;
+align-items:center;
+height:150px
+}
+.navigations{
+    a{ 
+        color:white;
+        text-decoration: none;
+        margin:0 8px;
+        transition:all 350ms;
+        
+    }a:hover{ 
+        color:pink;
+        font-size:18px;}
+    }
+
+    .hero{
+        display:flex;
+        justify-content:space-between;
+    }
+    .hero_image{ 
+        img{
+            width:650px;}
+    }
+    .hero_texts{ max-width: 500px;
+    color:white;
+h1{
+    font-size:40px;
+    line-height:40px;
+}
+button{
+    padding:10px 30px;
+    border:none;
+    border-radius:100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+button:hover{
+    background-color:chocolate;
+    color:white;
+}
+}
+.socials{
+    display:flex;
+    justify-content:end;
+}
+.icons img{
+    width:30px;
+}
+
+ 
