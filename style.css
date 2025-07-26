@@ -36,12 +36,13 @@ height:150px
         img{
             width:650px;}
     }
-    .hero_texts{ max-width: 500px;
+    h1{
+        font-size:40px ;
+    }
+    .hero_texts{
+         max-width: 500px;
     color:white;
-h1{
-    font-size:40px;
-    line-height:40px;
-}
+    }
 button{
     padding:10px 30px;
     border:none;
@@ -49,10 +50,10 @@ button{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 button:hover{
-    background-color:chocolate;
+    background-color:#744CBB;
     color:white;
 }
-}
+
 .socials{
     display:flex;
     justify-content:end;
@@ -60,5 +61,61 @@ button:hover{
 .icons img{
     width:30px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+    background-image: url("./Assets/bg-mobile.svg");
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .navigations {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  .hero {
+    flex-direction: column-reverse;
+    gap: 30px;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  .hero_image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero_texts {
+    max-width: 100%;
+  }
+  .hero_texts h1 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+
+  .hero_texts button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+  }
+
+  .socials {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .icons img {
+    width: 25px;
+  }
+}
+
 
  
